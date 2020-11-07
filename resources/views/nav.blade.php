@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand navbar-dark bg-original">
-  <a class="navbar-brand" href="/"><i class="far fa-sticky-note mr-1"></i>掲示板</a>
+  <a class="navbar-brand" href="/"><i class="far fa-sticky-note mr-1"></i>掲示板(ChaChat)</a>
 
   <ul class="navbar-nav ml-auto">
 
