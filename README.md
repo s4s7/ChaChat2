@@ -29,3 +29,7 @@ default=# \q
 docker-compose exec workspace psql -U default -h postgres -d larasns
 docker-compose exec workspace php artisan migrate
 ```
+## Transpile(js, sass)
+```
+docker-compose exec workspace npm run watch-poll
+```
