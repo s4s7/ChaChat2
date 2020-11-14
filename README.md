@@ -33,3 +33,6 @@ docker-compose exec workspace php artisan migrate
 ```
 docker-compose exec workspace npm run watch-poll
 ```
+
+## Git branching model
+https://nvie.com/posts/a-successful-git-branching-model/
