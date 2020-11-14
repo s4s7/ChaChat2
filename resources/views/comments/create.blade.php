@@ -23,7 +23,7 @@
     <!--Content-->
     <div class="modal-content text-center">
       <!--Header-->
-      <div class="modal-header d-flex justify-content-center">
+      <div class="modal-header original-color d-flex justify-content-center">
         <p class="heading">注意</p>
       </div>
 
