@@ -61,18 +61,18 @@
     @endif
 
   </div>
-  <div class="card-body pt-0 pb-2">
+  <a class="card-body pt-0 pb-2" href="{{ route('articles.show', ['article' => $article]) }}">
     <h3 class="h4 card-title">
-      <a class="text-dark" href="{{ route('articles.show', ['article' => $article]) }}">
+      <div class="text-dark">
         {{ $article->title }}
-      </a>
+      </div>
     </h3>
     <div class="card-text">
       {!! nl2br(e( $article->body )) !!}
     </div>
-    <div class="text-right">
+    <div class="text-right text-muted">
       <i class="fas fa-comment fa-1x mr-1"></i>
       <span> {{ $article->count_comments }} </span>
     </div>
-  </div>
+  </a>
 </div>
