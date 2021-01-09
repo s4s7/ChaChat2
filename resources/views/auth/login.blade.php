@@ -28,19 +28,18 @@
                 </div>
 
                 <input type="hidden" name="remember" id="remember" value="on">
-
-                <div class="text-left">
-                  <a href="{{ route('password.request') }}" class="card-text">パスワードを忘れた方</a>
-                </div>
-
                 <button class="btn btn-block btn-original mt-2 mb-2" type="submit">ログイン</button>
 
               </form>
 
-              <div class="mt-0">
-                <a href="{{ route('register') }}" class="card-text">ユーザー登録はこちら</a>
+              <div class="mt-5">
+                <div class="mt-2">------ パスワード忘れましたか？ ------</div>
+                <a href="{{ route('password.request') }}" class="card-text btn">パスワード再発行</a>
               </div>
-
+              <div class="mt-4">
+                <div>------ ご利用は初めてですか？  ------</div>
+                <a href="{{ route('register') }}" class="card-text btn ">新規ユーザー登録</a>
+              </div>
             </div>
           </div>
         </div>
