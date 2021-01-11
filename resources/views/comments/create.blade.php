@@ -6,7 +6,6 @@
                 <div class="card-text">
                     <form method="POST" action="{{ route('comments.store', $article) }}" id="comment-modal">
                         @include('comments.form')
-                        <!-- <button type="submit" class="btn blue-gradient btn-block">投稿する</button> -->
                         <button type="button" class="btn btn-original btn-block" data-toggle="modal" data-target="#modalPush" v-on:click>投稿する</button>
                     </form>
                 </div>

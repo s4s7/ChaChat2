@@ -62,7 +62,7 @@
 
   </div>
   <a class="card-body pt-0 pb-2" href="{{ route('articles.show', ['article' => $article]) }}">
-    <h3 class="h4 card-title">
+    <h3 class="h5 card-title">
       <div class="text-dark">
         {{ $article->title }}
       </div>

@@ -42,7 +42,8 @@ class ArticleController extends Controller
 
     public function update(ArticleRequest $request, Article $article)
     {
-        return $user->id === $article->user_id;
+        $article->fill($request->all())->save();
+        return redirect()->route('articles.index');
     }
 
     public function destroy(Article $article)

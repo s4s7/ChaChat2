@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand navbar-dark bg-original">
 
   @if (\Route::is('articles.index'))
-    <a class="navbar-brand" href="/"><i class="far fa-sticky-note mr-1"></i>掲示板(ChaChat)</a>
+    <a class="navbar-brand" href="/"><i class="far fa-sticky-note mr-1"></i>掲示板</a>
   @else
     <a class="navbar-brand" href="/"><i class="far fa-sticky-note mr-1"></i>掲示板へ戻る</a>
   @endif
